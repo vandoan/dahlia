@@ -18,29 +18,61 @@ html,body{
 .navigation {   
     position:fixed;     
     z-index:1;      
-    top:20px;  
+    top: 50%;
+    right:95%; 
 }  
-.navigation li {    
-    color:#333333;      
+
+
+ul.navigation li {    
     display:block;      
     padding: 0 10px;    
     line-height:30px;   
-    margin-bottom:2px;      
-    font-weight:bold;   
-    -webkit-transition: all .2s ease-in-out;    
-    border-bottom:1px solid black;      
+    margin-bottom:2px;  
+    width: 12px;    
+    -webkit-transition: all .3s ease-in-out;    
     text-align:left;    
-    width:53px;  
 }  
-.navigation li:hover,
+ul.navigation li:hover,
 .active {   
     font-size:25px;     
     cursor:pointer;     
-    width:100px!important;  
+    width:30px!important;  
 }
 
+.pearl1{
+    content:url(../images/pearl1.png);
+}
+.pearl2{
+    content:url(../images/pearl2.png);
+}
+.pearl3{
+    content:url(../images/pearl3.png);
+}
+.pearl4{
+    content:url(../images/pearl4.png);
+}
+.pearl5{
+    content:url(../images/pearl5.png);
+}
 
+.shell{
+    content:url(../images/shell.png);
+    width: 40px;    
+}
 
+.button{
+    display:block;
+    width:60px;
+    position:absolute;
+    bottom:5px;
+    left:50%;
+    content:url(../images/shellup.png);
+    background-repeat:no-repeat;
+}
+.button:hover{
+    content:url(../images/shellup2.png);
+    cursor:pointer;
+}
 
 
 .DDD {
@@ -62,14 +94,22 @@ html,body{
     width: 350px;
 }
 
-.octodiv{
+    
+
+.boat {
+    width: 90px;
     position: relative;
     float:right;
     margin: 30px;
+    transition: all 0.5s ease-in-out; 
+    content:url("../images/boat.png");
+
 }
-.octo {
-    width: 80px; 
+.boat:hover {
+    content:url("../images/boat2.png");
+
 }
+
 .angler {  
     content:url("../images/angler.png");
     position:fixed;  
@@ -100,6 +140,9 @@ html,body{
 }
 .vansdesk {
     opacity:.8; 
+}
+.siny {
+    width:300px;
 }
 
 
@@ -136,20 +179,7 @@ html,body{
     opacity: .8; 
 }
 
-.button{
-    display:block;
-    width:50px;
-    height:50px;
-    position:absolute;
-    bottom:5px;
-    left:50%;
-    content:url(../images/shell.png);
-    background-repeat:no-repeat;
-}
-.button:hover{
-    content:url(../images/shell2.png);
-    cursor:pointer;
-}
+
 
 /******************************
  SLIDE 1 
