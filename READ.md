@@ -15,3 +15,7 @@ notes | refreshers:
 		.angler {  
     	content:url("../images/angler.png"); ...
 
+    switch out the mouse's arrow to a pointing hand 
+    cursor:pointer;
+
+
