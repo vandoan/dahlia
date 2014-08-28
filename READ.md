@@ -10,5 +10,8 @@ notes | refreshers:
 	Gaussian blur 
 		on bubbles 
 
-		
+
+	adding images to a div
+		.angler {  
+    	content:url("../images/angler.png"); ...
 
