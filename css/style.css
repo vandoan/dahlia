@@ -228,6 +228,12 @@ ul.navigation:hover  ul div {
     position: relative;
 }
 
+.img5 {
+    content:url(../images/slide3/boats.png);
+    content:title("Bali");
+    position: relative;
+}
+
 .img {
     position: relative;
 }
