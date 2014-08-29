@@ -9,18 +9,23 @@ jQuery(document).ready(function(){
     mode: 'fade',
     options: true,
     speed: 1000,
-    slideMargin:5,
     infiniteLoop: true,
-    pager: false,
+    pager: true,
     controls: true,
     slideWidth: 1000,
-    minSlides: 1,
-    maxSlides: 1,
-    moveSlides: 1       });
+    touchEnabled: true,
+    captions: true     });
     });
 
 
+        
+    $(".bxslider li").mouseenter(function () {
+        $(this).find(".bx-caption").fadeIn();
+    })
 
+    $(".bxslider li").mouseleave(function () {
+        $(this).find(".bx-caption").fadeOut();
+    });
     //initialise Stellar.js
     $(window).stellar();
 

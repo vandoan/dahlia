@@ -203,7 +203,9 @@ ul.navigation:hover  ul div {
          /*     3 slide images     */
          
 
-
+[title~=all] {
+    border: 5px solid yellow;
+}
 
 
 .img1 {

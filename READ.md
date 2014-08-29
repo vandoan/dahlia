@@ -18,6 +18,10 @@ notes | refreshers:
     -switch out the mouse's arrow to a pointing hand 
     	cursor:pointer;
 
+    -bxslider 
+
+
+
 
 
 
@@ -26,3 +30,23 @@ Serious bugs
 	- bx slider did not work because of conflicting versions of jquery, 1.8.2 and 1.7
 
 	- bx slider did not work because of js.js being above bxslider.min.js, so that the bx functions were not loaded and could not be called
+
+	- resize pearls
+
+	- finish the last page 
+
+	- redo the colors for the angular and shells
+
+	- add missing photos
+
+	- fix the pagers
+
+	-
+
+
+
+
+
+
+
+
