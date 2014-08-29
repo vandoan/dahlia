@@ -1,4 +1,22 @@
+
 jQuery(document).ready(function ($) {
+
+
+//BX Slider
+jQuery(document).ready(function(){
+    jQuery('.bxslider').bxSlider({
+    mode: 'horizontal',
+    speed: 500,
+    slideMargin:20,
+    infiniteLoop: true,
+    pager: false,
+    controls: true,
+    slideWidth: 80,
+    minSlides: 1,
+    maxSlides: 5,
+    moveSlides: 1       });
+    });
+
 
 
     //initialise Stellar.js

@@ -1,21 +1,28 @@
 notes | refreshers: 
 
-	anchors within page: 
+	-anchors within page: 
 		<a href = "#(id of place)"> (item) </a> 
 
-	slider
+	-slider
 		in order for it to work, the children and parents have to follow the stated path
 
 
-	Gaussian blur 
+	-Gaussian blur 
 		on bubbles 
 
 
-	adding images to a div
+	-adding images to a div
 		.angler {  
     	content:url("../images/angler.png"); ...
 
-    switch out the mouse's arrow to a pointing hand 
-    cursor:pointer;
+    -switch out the mouse's arrow to a pointing hand 
+    	cursor:pointer;
 
 
+
+
+Serious bugs
+
+	- bx slider did not work because of conflicting versions of jquery, 1.8.2 and 1.7
+
+	- bx slider did not work because of js.js being above bxslider.min.js, so that the bx functions were not loaded and could not be called
