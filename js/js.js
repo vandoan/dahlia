@@ -5,15 +5,17 @@ jQuery(document).ready(function ($) {
 //BX Slider
 jQuery(document).ready(function(){
     jQuery('.bxslider').bxSlider({
-    mode: 'horizontal',
-    speed: 500,
-    slideMargin:20,
+    //mode: 'horizontal',
+    mode: 'fade',
+    options: true,
+    speed: 1000,
+    slideMargin:0,
     infiniteLoop: true,
     pager: false,
     controls: true,
-    slideWidth: 80,
+    slideWidth: 1000,
     minSlides: 1,
-    maxSlides: 5,
+    maxSlides: 1,
     moveSlides: 1       });
     });
 

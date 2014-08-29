@@ -15,6 +15,31 @@ html,body{
     height:100%;  
 }
 
+
+.logo img {
+    position: relative; 
+    top: 50%;
+    right: 4%;
+    
+}
+.logo {
+    opacity: .92;
+}
+.logo:hover {
+    opacity: .6;
+}
+
+.logo { 
+        width: 10.1%;
+    height: 60px;
+    top: 20px;
+    left: 0;
+    background-color: #EE5206;
+    padding: 0 4.5%;
+    display: block;
+ }
+
+
 .navigation {   
     position:fixed;     
     z-index:1;      
@@ -37,6 +62,12 @@ ul.navigation li:hover,
     font-size:25px;     
     cursor:pointer;     
     width:30px!important;  
+}
+
+ul.navigation:hover  ul div {
+        content:url(../images/blueShelldown.png);
+        opacity:.9;
+
 }
 
 .pearl1{
@@ -162,8 +193,39 @@ ul.navigation li:hover,
     float: none !important;
 }
 
+.box {
+        margin-top: 200px; 
+}
+.clip {
+    
+}
+
+         /*     3 slide images     */
+         
 
 
+
+
+.img1 {
+    content:url(../images/slide3/mt.png);
+    position: relative;
+}
+
+.img2 {
+    content:url(../images/slide3/firewater.png);
+    position: relative;
+}
+
+.img3 {
+    content:url(../images/slide3/ocean2.png);
+    position: relative;
+}
+
+.img4 {
+    content:url(../images/slide3/beach.png);
+    content:title("Bali");
+    position: relative;
+}
 
 
 
