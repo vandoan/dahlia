@@ -9,7 +9,7 @@ jQuery(document).ready(function(){
     mode: 'fade',
     options: true,
     speed: 1000,
-    slideMargin:0,
+    slideMargin:5,
     infiniteLoop: true,
     pager: false,
     controls: true,

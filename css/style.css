@@ -213,6 +213,7 @@ ul.navigation:hover  ul div {
 
 .img2 {
     content:url(../images/slide3/firewater.png);
+    content: attr(title):"turtles"; 
     position: relative;
 }
 
@@ -226,6 +227,11 @@ ul.navigation:hover  ul div {
     content:title("Bali");
     position: relative;
 }
+
+.img {
+    position: relative;
+}
+
 
 
 
