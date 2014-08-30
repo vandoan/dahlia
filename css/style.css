@@ -1,18 +1,50 @@
-@font-face {  
-    font-family: 'BebasRegular';  
-    src: url('font/BEBAS___-webfont.eot');  
-    src: url('font/BEBAS___-webfont.eot?#iefix') format('embedded-opentype'),     
-    url('font/BEBAS___-webfont.woff') format('woff'),     
-    url('font/BEBAS___-webfont.ttf') format('truetype'),     
-    url('font/BEBAS___-webfont.svg#BebasRegular') format('svg');  
-    font-weight: normal;  
-    font-style: normal;  
-    }  
-     
+@import "_normalize.css";
+@import "jquery.bxslider.css";
+
+@font-face {
+    font-family: soymilk;
+    src: url(../soymilk.ttf);
+}
+
+
 html,body{ 
     font-family: 'BebasRegular';    
     width:100%;     
     height:100%;  
+}
+
+.font {
+    font-family: soymilk; 
+    font-size: 130px; 
+    margin: 100px;
+    position: absolute;
+    right: 33%;
+    bottom: -2% 
+}
+
+.font2{
+    font-family: soymilk; 
+    position:absolute;
+    bottom:50px;
+    right: 300px;
+    font-size:130px;
+}
+
+.font3{
+    font-family: soymilk; 
+    position:absolute;
+    bottom:50px;
+    right: 200px;
+    font-size:110px;
+}
+
+.slide2text {
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    font-size:80px;
+    color:#2c3e50;
+    opacity: .8; 
 }
 
 
@@ -66,7 +98,7 @@ ul.navigation li:hover,
 }
 
 ul.navigation:hover  ul div {
-        content:url(../images/blueShelldown.png);
+        content:url(../images/shell2.png);
         opacity:.9;
 
 }
@@ -104,14 +136,6 @@ ul.navigation:hover  ul div {
 .button:hover{
     content:url(../images/shellup2.png);
     cursor:pointer;
-}
-
-
-.DDD {
-    margin: 100px; 
-    font-size: 30px;
-    opacity: .8;
-     
 }
 
 .fishhead {
@@ -261,14 +285,6 @@ ul.navigation:hover  ul div {
     color:rgba(255,255,255,0.3);
 }
 
-.slide2text {
-    position:absolute;
-    bottom:0px;
-    left:0px;
-    font-size:80px;
-    color:#2c3e50;
-    opacity: .8; 
-}
 
 
 
@@ -313,7 +329,7 @@ left: -150px;
 }
 #slide2 img:nth-child(6){
     position:absolute;
-    top:600px;
+    top:400px;
     right:300px;
 }
 #slide2 img:nth-child(7){
@@ -329,7 +345,7 @@ left: -150px;
 #slide2 img:nth-child(9){
     position:absolute;
     top:300px;
-    right:200px;
+    right:860px;
 }
 
 
@@ -349,19 +365,36 @@ left: -150px;
 /******************************
  SLIDE 4 
 *******************************/
- 
+
 #slide4{
-    background-image:url(../images/Slide4/desktop4.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-color:#000;
 }
-#slide4 .parallaxbg{
-    position:absolute;
-    right:40px;
-    top:40px;
-    font-size:28px;
-    color:rgba(51,51,51,0.3);
+
+
+ div.bottom
+        {
+            height: 90%;
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: none;
+            margin-bottom: none;
+            margin: ;
+            color:white;
+            font-size: 25px;
+        }
+
+div.columns { 
+    width: 90%;
+    height: 90%;
+    padding: 50px; 
 }
+div.columns div { 
+        padding:1%;
+        width: 30%; 
+        height: 80%; 
+        float: left; }
+div.grey { background-color: #cccccc; }
+div.red { background-color: #e14e32; }
+div.clear { clear: both; }
 

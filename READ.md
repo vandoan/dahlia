@@ -20,7 +20,9 @@ notes | refreshers:
 
     -bxslider 
 
-
+    -rounded corners
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
 
 
 
