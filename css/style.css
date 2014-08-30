@@ -3,7 +3,15 @@
 
 @font-face {
     font-family: soymilk;
-    src: url(../soymilk.ttf);
+    src: url(../font/soymilk.ttf);
+}
+@font-face {
+    font-family: goudy;
+    src: url(../font/goudy.ttf);
+}
+@font-face {
+    font-family: goudyi;
+    src: url(../font/smgoudyi.otf);
 }
 
 
@@ -347,6 +355,20 @@ left: -150px;
     top:300px;
     right:860px;
 }
+#slide2 img:nth-child(10){
+    position:absolute;
+    top:500px;
+    left:200px;
+}
+
+#slide2 img:nth-child(11){
+    position:absolute;
+    top:450px;
+    right:360px;
+    width:220px;
+}
+
+
 
 
 /****************************** SLIDE 3 *******************************/ 
@@ -368,33 +390,48 @@ left: -150px;
 
 #slide4{
     background-color:#000;
+    display:block;
+    padding: 5%;
 }
 
 
- div.bottom
-        {
-            height: 90%;
-            width: 90%;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: none;
-            margin-bottom: none;
-            margin: ;
-            color:white;
-            font-size: 25px;
+div.info{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: none;
+    margin-bottom: none;
+    width: auto;
+    color:white;
+    font-size: 25px;
+    clear: both;
+    font-size: 16px;
+    letter-spacing:1px !important;
+    line-height: 1.6em;
+    font-family: goudyi;
+    display: block;
+    opacity: .75;
+
+    
         }
 
+ h3 {
+    font-family: goudy; 
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    line-height: 1.4em;
+}
 div.columns { 
+    margin: auto;
     width: 90%;
     height: 90%;
     padding: 50px; 
 }
 div.columns div { 
         padding:1%;
-        width: 30%; 
-        height: 80%; 
-        float: left; }
-div.grey { background-color: #cccccc; }
-div.red { background-color: #e14e32; }
-div.clear { clear: both; }
+        width: 20%; 
+        height: 80%;
+        display: block;
+        float: left;
+}
+
 
