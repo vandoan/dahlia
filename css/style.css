@@ -30,14 +30,15 @@ html,body{
 }
 
 .logo { 
-        width: 10.1%;
+    width: 10.1%;
     height: 60px;
-    top: 20px;
     left: 0;
     background-color: #EE5206;
     padding: 0 4.5%;
-    display: block;
+    top: 40px;
+    position: absolute;
  }
+
 
 
 .navigation {   
@@ -194,7 +195,7 @@ ul.navigation:hover  ul div {
 }
 
 .box {
-   padding:100px;
+   padding :200;
 }
 .clip {
     
