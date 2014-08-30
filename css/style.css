@@ -1,3 +1,4 @@
+@import "font-awesome.min.css";
 @import "_normalize.css";
 @import "jquery.bxslider.css";
 
@@ -395,7 +396,7 @@ left: -150px;
 }
 
 
-div.info{
+.info{
     margin-left: auto;
     margin-right: auto;
     margin-top: none;
@@ -409,7 +410,7 @@ div.info{
     line-height: 1.6em;
     font-family: goudyi;
     display: block;
-    opacity: .75;
+    opacity: .85;
 
     
         }
@@ -433,5 +434,23 @@ div.columns div {
         display: block;
         float: left;
 }
-
-
+.icons {
+    clear:both;
+    min-height: 100px; 
+    background-color:#e14e32; 
+    width: 90%;
+    float: left;
+    position: absolute;
+    left: 0;
+    bottom: 100px;
+}
+.footer{
+       clear:both;
+    min-height: 50px; 
+    background-color:#46A9E0; 
+    width: 90%;
+    position: absolute;
+    bottom: 0;
+    font-size: 15px;
+    
+}

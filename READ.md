@@ -49,6 +49,7 @@ Serious bugs
 
 	- find the correct font 
 
+	- adding awesome font: make sure ot include the downloaded css or it won't work, not stated in the directions. 
 
 
 
