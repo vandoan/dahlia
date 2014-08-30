@@ -9,14 +9,17 @@ jQuery(document).ready(function(){
     mode: 'fade',
     options: true,
     speed: 1000,
+    slideMargin:5,
     infiniteLoop: true,
     pager: true,
     controls: true,
     slideWidth: 1000,
-    touchEnabled: true,
-    captions: true     });
+    touchEnabled: true, 
+    captions: true, 
+    minSlides: 1,
+    maxSlides: 1,
+    moveSlides: 1       });
     });
-
 
         
     $(".bxslider li").mouseenter(function () {
@@ -26,6 +29,7 @@ jQuery(document).ready(function(){
     $(".bxslider li").mouseleave(function () {
         $(this).find(".bx-caption").fadeOut();
     });
+
     //initialise Stellar.js
     $(window).stellar();
 

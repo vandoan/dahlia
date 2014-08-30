@@ -39,9 +39,15 @@ Serious bugs
 
 	- add missing photos
 
-	- fix the pagers
+	- fix the pagers -  failed, assuming that another js is conflicting with the bxslider js and causing a distortation with the pager
 
-	-
+	- add a pop up for the logo
+
+	- link the boat to the last page / contact
+
+	- find the correct font 
+
+
 
 
 

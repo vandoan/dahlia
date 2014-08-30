@@ -61,7 +61,7 @@ ul.navigation li:hover,
 .active {   
     font-size:25px;     
     cursor:pointer;     
-    width:30px!important;  
+    width:20px!important;  
 }
 
 ul.navigation:hover  ul div {
@@ -88,7 +88,7 @@ ul.navigation:hover  ul div {
 
 .shell{
     content:url(../images/shell.png);
-    width: 40px;    
+    width: 35px;    
 }
 
 .button{
@@ -194,7 +194,7 @@ ul.navigation:hover  ul div {
 }
 
 .box {
-        margin-top: 200px; 
+    margin: 100px;
 }
 .clip {
     
@@ -202,10 +202,6 @@ ul.navigation:hover  ul div {
 
          /*     3 slide images     */
          
-
-[title~=all] {
-    border: 5px solid yellow;
-}
 
 
 .img1 {
