@@ -38,8 +38,8 @@ html,body{
     position: absolute;
     border-radius: 7px;
     z-index:10;
-    left: 30%%;
-    top: 107px;
+    left: 29%%;
+    top: 80px;
     visibility: hidden;
     opacity:1;    
     }
@@ -435,7 +435,9 @@ left: -150px;
     left: 300px; 
 }  
 
-
+.photo {
+    padding-top: 100px;
+}
 
 /******************************
  SLIDE 4 
@@ -500,6 +502,7 @@ div.columns div {
     bottom: 100px;
     }
 
+
 .sign {
     padding-top: 60px;
     font-family: goudy; 
@@ -507,14 +510,22 @@ div.columns div {
     letter-spacing: 2px;
     line-height: 1.4em;
     font-size: 13px;
-    opacity: .2;
+    opacity: .2 !important;
 }
-
+.innerIcon a {
+    text-decoration: none;
+}
 .innerIcon i {
-    margin: 6px;
+    margin: 8px;
     font-size: 22px;
-}
+    opacity:1;
+    color:#49226c; 
 
+;}
+
+.innerIcon a:hover {
+    opacity:.4;
+    }
 
 .footer{
     min-height: 40px; 
@@ -532,7 +543,7 @@ div.columns div {
 .innerfooter div{
 
     float: left !important;
-    margin: 5px; 
+    margin-top: 8px; 
 }
 .cat{ padding-left: 30px; font-size:14px;}
 
