@@ -23,6 +23,11 @@ notes | refreshers:
     -rounded corners
             border-bottom-left-radius: 15px;
             border-bottom-right-radius: 15px;
+    
+    - float above everything
+    	position: absolute 
+
+    
 
 
 

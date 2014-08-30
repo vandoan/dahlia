@@ -14,17 +14,63 @@
     font-family: goudyi;
     src: url(../font/smgoudyi.otf);
 }
-
+@font-face {
+    font-family: hip;
+    src: url(../font/hipster.ttf);
+}
 
 html,body{ 
-    font-family: 'BebasRegular';    
     width:100%;     
     height:100%;  
+    position: absolute;
+    float: left;
+}
+
+       
+.logo:hover .me2{
+            visibility: visible;}
+    
+
+.me2 {
+    background-color:#e14e32; 
+    width: 160px; 
+    height:450px;
+    position: absolute;
+    border-radius: 7px;
+    z-index:10;
+    left: 30%%;
+    top: 107px;
+    visibility: hidden;
+    opacity:1;    
+    }
+
+.meText {
+    color:#FFF; 
+    margin-top:1px;
+    opacity:.8; 
+    font-family: hip;   
+    font-size: 35px;
+}   
+.meText img{
+    width: 80px;
+    margin: 0px !important;
+
+    }
+
+.m {
+    background-color:#e14e32; 
+    width: 250px; 
+    height:250px;
+    position: absolute;
+    border-radius: 50%;
+    left: 43%;
+    top: 90px;
+    
 }
 
 .font {
     font-family: soymilk; 
-    font-size: 130px; 
+    font-size: 120px; 
     margin: 100px;
     position: absolute;
     right: 33%;
@@ -34,9 +80,9 @@ html,body{
 .font2{
     font-family: soymilk; 
     position:absolute;
-    bottom:50px;
-    right: 300px;
-    font-size:130px;
+    top:90px;
+    right: 240px;
+    font-size:100px;
 }
 
 .font3{
@@ -44,7 +90,7 @@ html,body{
     position:absolute;
     bottom:60px;
     right: 250px;
-    font-size:110px;
+    font-size:100px;
 }
 .world {
     font-family: soymilk; 
@@ -70,11 +116,9 @@ html,body{
     right: 4%;
     
 }
-.logo {
-    opacity: .92;
-}
-.logo:hover {
-    opacity: .6;
+
+.logo:hover  {
+    opacity: .96;
 }
 
 .logo { 
@@ -85,6 +129,8 @@ html,body{
     padding: 0 4.5%;
     top: 40px;
     position: absolute;
+    opacity: 1;
+
  }
 
 
@@ -398,7 +444,7 @@ left: -150px;
 #slide4{
     background-color:#000;
     display:block;
-    padding: 5%;
+    padding: 4%;
 }
 
 
@@ -445,21 +491,28 @@ div.columns div {
         float: left;
 }
 .icons {
-
+    margin-top: 50px;
     clear:both;
     min-height: 100px; 
     width: 100%;
     float: left;
-    position: absolute;
     left: 50%;
     bottom: 100px;
     }
-.innerIcon{
-    display: inline;
-    float:left;
- }
+
+.sign {
+    padding-top: 60px;
+    font-family: goudy; 
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.4em;
+    font-size: 13px;
+    opacity: .2;
+}
+
 .innerIcon i {
-    margin: 10px;
+    margin: 6px;
+    font-size: 22px;
 }
 
 
